@@ -1,0 +1,28 @@
+{
+  "name": "esbuild-react-hooks-error",
+  "version": "1.0.0",
+  "description": "Esbuild &amp; React: Error: Invalid hook call. Hooks can only be called inside of the body of a function component.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "node esbuild.config.js --dev",
+    "prepack": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davegomez/esbuild-react-hooks-error.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davegomez/esbuild-react-hooks-error/issues"
+  },
+  "homepage": "https://github.com/davegomez/esbuild-react-hooks-error#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.24"
+  }
+}
